@@ -1,4 +1,4 @@
-# dump_project
+# Dump Project
 
 Minimal helper to turn any folder of source files into **one text blob** ready for ChatGPT / Gemini / Claude.
 
