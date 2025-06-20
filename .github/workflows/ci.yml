@@ -6,6 +6,9 @@ on:
     tags: ["v*.*.*"]    # build only when you create a version tag
   workflow_dispatch:     # or run manually
 
+permissions:          # <-- top-level (applies to all jobs)
+  contents: write     #   just enough for a release
+
 jobs:
   build:
     name: build ${{ matrix.os }}
